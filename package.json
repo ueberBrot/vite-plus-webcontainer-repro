@@ -5,7 +5,8 @@
   "packageManager": "pnpm@11.20.0",
   "scripts": {
     "reproduce": "vp --version",
-    "environment": "vp env current"
+    "environment": "vp env current",
+    "reproduce:wasi": "NAPI_RS_FORCE_WASI=error vp --version"
   },
   "devDependencies": {
     "vite-plus": "0.3.0"

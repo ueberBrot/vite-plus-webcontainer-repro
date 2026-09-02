@@ -15,3 +15,9 @@ To reproduce the same failure with the environment command, run:
 ```shell
 pnpm run environment
 ```
+
+The native binding works on supported local platforms. To reproduce the missing WASI distribution explicitly, run:
+
+```shell
+pnpm run reproduce:wasi
+```
